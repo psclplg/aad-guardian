@@ -16,7 +16,8 @@
         Github...........: https://github.com/psclplg 
         LinkedIn.........: https://www.linkedin.com/in/pascalplaga
     Version..............: 0.1
-    TBD..................: Monitoring for Sign-Ins of Break Glass Accounts and w/o CA policy applied. 
+    TBD..................: - Monitoring for Sign-Ins of Break Glass Accounts and w/o CA policy applied. 
+                           - Define scopes for least privileges for MS Graph authentication
 #>
 
 # function loginGraph {

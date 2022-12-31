@@ -1,0 +1,52 @@
+{
+  "Conditions": {
+    "Applications": {
+      "ExcludeApplications": [],
+      "IncludeApplications": [
+        "All"
+      ],
+      "IncludeAuthenticationContextClassReferences": [],
+      "IncludeUserActions": []
+    },
+    "ClientAppTypes": [
+      "all"
+    ],
+    "Locations": {
+      "ExcludeLocations": [],
+      "IncludeLocations": [
+        "All"
+      ]
+    },
+    "Platforms": {
+      "ExcludePlatforms": [],
+      "IncludePlatforms": [
+        "all"
+      ]
+    },
+    "ServicePrincipalRiskLevels": [],
+    "SignInRiskLevels": [],
+    "UserRiskLevels": [],
+    "Users": {
+      "ExcludeGroups": [
+        "<<breakGlass_Group>>"
+      ],
+      "ExcludeRoles": [],
+      "ExcludeUsers": [],
+      "IncludeGroups": [
+        "<<mfaAllUsers_Group>>"
+      ],
+      "IncludeRoles": [],
+      "IncludeUsers": []
+    }
+  },
+  "DisplayName": "CA002: Require multifactor authentication for Users",
+  "GrantControls": {
+    "BuiltInControls": [
+      "mfa"
+    ],
+    "CustomAuthenticationFactors": [],
+    "Operator": "OR",
+    "TermsOfUse": []
+  },
+  "State": "enabledForReportingButNotEnforced"
+}

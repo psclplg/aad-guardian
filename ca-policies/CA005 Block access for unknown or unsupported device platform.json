@@ -1,0 +1,52 @@
+{
+  "Conditions": {
+    "Applications": {
+      "ExcludeApplications": [],
+      "IncludeApplications": [
+        "All"
+      ],
+      "IncludeAuthenticationContextClassReferences": [],
+      "IncludeUserActions": []
+    },
+    "ClientAppTypes": [
+      "all"
+    ],
+    "Platforms": {
+      "ExcludePlatforms": [
+        "android",
+        "iOS",
+        "windows",
+        "macOS",
+        "linux"
+      ],
+      "IncludePlatforms": [
+        "all"
+      ]
+    },
+    "ServicePrincipalRiskLevels": [],
+    "SignInRiskLevels": [],
+    "UserRiskLevels": [],
+    "Users": {
+      "ExcludeGroups": [
+        "<<breakGlass_Group>>"
+      ],
+      "ExcludeRoles": [],
+      "ExcludeUsers": [],
+      "IncludeGroups": [],
+      "IncludeRoles": [],
+      "IncludeUsers": [
+        "All"
+      ]
+    }
+  },
+  "DisplayName": "CA005: Block access for unknown or unsupported device platform",
+  "GrantControls": {
+    "BuiltInControls": [
+      "block"
+    ],
+    "CustomAuthenticationFactors": [],
+    "Operator": "OR",
+    "TermsOfUse": []
+  },
+  "State": "enabledForReportingButNotEnforced"
+}
